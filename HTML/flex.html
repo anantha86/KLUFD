@@ -6,17 +6,58 @@
         <style>
             .parent{
                 display: flex;
+                /* justify-content: center;
+                height: 100vh;
+                align-items: flex-end;
+                flex-direction: row-reverse;*/
+                flex-wrap: wrap-reverse;
             }
             .common{
+                color: white;
                 border: 1px solid gray;
                 margin: 20px;
                 padding: 20px;
-
+                }
+            .div1{
+                background-color: red;
+                order: 9;
+                flex-basis: 20vw;
+            }
+            .div2{
+                background-color:green;
+                order: 10;
+            }
+            .div3{
+                background-color:blue;
             }
         </style>
     </head>
     <body>
         <div class="parent">
+            <div class="common div1">Item1</div>
+            <div class="common div2">Item2</div>
+            <div class="common div3">Item3</div>
+            <div class="common div1">Item1</div>
+            <div class="common div2">Item2</div>
+            <div class="common div3">Item3</div>
+
+            <div class="common div1">Item1</div>
+            <div class="common div2">Item2</div>
+            <div class="common div3">Item3</div>
+
+            <div class="common div1">Item1</div>
+            <div class="common div2">Item2</div>
+            <div class="common div3">Item3</div>
+
+            <div class="common div1">Item1</div>
+            <div class="common div2">Item2</div>
+            <div class="common div3">Item3</div>
+            <div class="common div1">Item1</div>
+            <div class="common div2">Item2</div>
+            <div class="common div3">Item3</div>
+            <div class="common div1">Item1</div>
+            <div class="common div2">Item2</div>
+            <div class="common div3">Item3</div>
             <div class="common div1">Item1</div>
             <div class="common div2">Item2</div>
             <div class="common div3">Item3</div>
